@@ -1,5 +1,10 @@
-def con(a):
-    print(a)
+def con():
+    eggs=99
+    bacon()
+    print(eggs)
 
+def bacon():
+    ham=101
+    eggs=0
 
-con("hello")
+con()
